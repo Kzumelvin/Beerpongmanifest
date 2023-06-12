@@ -1,71 +1,116 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{Einführung}{3}{}%
-\contentsline {section}{Bayerisches Beerponggesetz (BayBPG)}{4}{}%
-\contentsline {subsection}{\centering Erstes Buch - Allgemeiner Teil}{5}{}%
-\contentsline {subsubsection}{Art. 1 {Grundsatz}.}{5}{}%
-\contentsline {subsection}{\centering Zweites Buch - Der Aufbau}{6}{}%
-\contentsline {subsubsection}{Art. 2 {Spieltisch}.}{6}{}%
-\contentsline {subsubsection}{Art. 3 {Spielgerät}.}{6}{}%
-\contentsline {subsubsection}{Art. 4 {Handfreie Zone}.}{6}{}%
-\contentsline {subsubsection}{Art. 5 {Mittellinie}.}{7}{}%
-\contentsline {subsubsection}{Art. 6 {Ellbogen}.}{7}{}%
-\contentsline {subsubsection}{Art. 7 {Spielball}.}{7}{}%
-\contentsline {subsubsection}{Art. 8 {Videobeweis}.}{7}{}%
-\contentsline {subsection}{\centering Drittes Buch - Das Spiel}{8}{}%
-\contentsline {subsubsection}{Art. 9 {Spielbeginn}.}{8}{}%
-\contentsline {subsubsection}{Art. 10 {Erstwurf-Entscheidung}.}{8}{}%
-\contentsline {subsubsection}{Art. 11 {Der Wurf}.}{8}{}%
-\contentsline {subsubsection}{Art. 12 {Anzahl der Bälle}.}{8}{}%
-\contentsline {subsubsection}{Art. 13 {Spielverlauf}.}{8}{}%
-\contentsline {subsubsection}{Art. 14 {Rearrangement (Re-Rack)}.}{9}{}%
-\contentsline {subsubsection}{Art. 15 {On Fire}.}{9}{}%
-\contentsline {subsubsection}{Art. 16 {Rebound}.}{9}{}%
-\contentsline {subsubsection}{Art. 17 {Spielabbruch}.}{10}{}%
-\contentsline {subsubsection}{Art. 18 {Spezielle Würfe}.}{10}{}%
-\contentsline {subsubsection}{Art. 19 {Air-Ball}.}{10}{}%
-\contentsline {subsubsection}{Art. 20 {Bomb}.}{10}{}%
-\contentsline {subsubsection}{Art. 21 {Herausblasen/Herausfingern}.}{10}{}%
-\contentsline {subsubsection}{Art. 22 {Balls-Back}.}{11}{}%
-\contentsline {subsubsection}{Art. 23 {Deathcup}.}{11}{}%
-\contentsline {subsubsection}{Art. 24 {Redemption}.}{11}{}%
-\contentsline {subsubsection}{Art. 25 {Bouncer}.}{11}{}%
-\contentsline {subsubsection}{Art. 26 {Sieger des Spiels}.}{11}{}%
-\contentsline {section}{Beerpongturnier Strafgesetzbuch (BStGB}{13}{}%
-\contentsline {subsubsection}{§ 1 {Keine Strafe ohne Tat}.}{13}{}%
-\contentsline {subsubsection}{§ 2 {Zeit der Tat}.}{13}{}%
-\contentsline {subsubsection}{§ 3 {Ort der Tat}.}{13}{}%
-\contentsline {subsubsection}{§ 4 {Personen und Sachbegriffe}.}{13}{}%
-\contentsline {subsubsection}{§ 5 {Grundsatz der Strafbemessung}.}{14}{}%
-\contentsline {subsubsection}{§ 6 {Persönliche Strafen und Spielstrafe}.}{14}{}%
-\contentsline {subsubsection}{§ 7 {Arten der persönlichen Strafe}.}{15}{}%
-\contentsline {subsubsection}{§ 8 {Arten der Spielstrafe}.}{15}{}%
-\contentsline {subsubsection}{§ 9 {Beeinflusster Wurf}.}{15}{}%
-\contentsline {subsubsection}{§ 10 {Regelbruch}.}{16}{}%
-\contentsline {subsubsection}{§ 11 {Strafmaßnahmen}.}{16}{}%
-\contentsline {subsubsection}{§ 12 {Extra- oder Wiederholungswurf}.}{17}{}%
-\contentsline {subsubsection}{§ 13 {Strafbecher}.}{17}{}%
-\contentsline {subsubsection}{§ 14 {Matchstrafe}.}{17}{}%
-\contentsline {subsubsection}{§ 15 {Turnierausschluss}.}{17}{}%
-\contentsline {subsubsection}{§ 16 {Fairplay}.}{17}{}%
-\contentsline {subsubsection}{§ 17 {Sperre}.}{17}{}%
-\contentsline {section}{Beerpongturnierprozessordnung (BtPO)}{18}{}%
-\contentsline {section}{BPT Elo Wertung}{19}{}%
-\contentsline {subsection}{Legende}{19}{}%
-\contentsline {subsection}{Elo Startwert}{19}{}%
-\contentsline {subsection}{Berechnung des Erwartungswerts}{19}{}%
-\contentsline {subsubsection}{Erwartungswert des Spieler A}{20}{}%
-\contentsline {subsubsection}{Erwartungswert des Spieler B}{20}{}%
-\contentsline {subsection}{Neuberechnung der Elo-Zahl}{20}{}%
-\contentsline {subsubsection}{\(k\)-Faktor}{20}{}%
-\contentsline {subsubsection}{Schachmodell}{20}{}%
-\contentsline {subsubsection}{Schweizer Tischtennis Model}{20}{}%
-\contentsline {subsubsection}{Modell des Beerpongturniers}{21}{}%
-\contentsline {subsubsection}{Punkteverteilung}{21}{}%
-\contentsline {subsubsection}{Neuberechnung}{21}{}%
-\contentsline {subsection}{Berechnungsmodell für das Beerpongturnier im Teamwettbewerb}{21}{}%
-\contentsline {subsubsection}{Konstellationen der Elo-Berechnung bei einem Teamwettbewerb}{21}{}%
-\contentsline {subsubsection}{2 vs. 2 (Standardfall)}{22}{}%
-\contentsline {subsubsection}{zusätzliche Berechnungen bei einem Dreierteam}{22}{}%
-\contentsline {subsubsection}{zusätzliche Berechnung bei zwei Dreierteams}{22}{}%
-\contentsline {subsubsection}{Maximalanzahl der Berechnungen}{22}{}%
-\contentsline {subsection}{Kategorien}{23}{}%
+\contentsline {section}{Einführung}{5}{}%
+\contentsline {section}{Bayerisches Beerponggesetz (BayBPG)}{6}{}%
+\contentsline {subsection}{\centering Erstes Buch - Allgemeiner Teil}{7}{}%
+\contentsline {subsubsection}{Art. 1 {Grundsatz}.}{7}{}%
+\contentsline {subsection}{\centering Zweites Buch - Der Aufbau}{8}{}%
+\contentsline {subsubsection}{Art. 2 {Spieltisch}.}{8}{}%
+\contentsline {subsubsection}{Art. 3 {Spielgerät}.}{8}{}%
+\contentsline {subsubsection}{Art. 4 {Handfreie Zone}.}{8}{}%
+\contentsline {subsubsection}{Art. 5 {Mittellinie}.}{9}{}%
+\contentsline {subsubsection}{Art. 6 {Ellbogen}.}{9}{}%
+\contentsline {subsubsection}{Art. 7 {Spielball}.}{9}{}%
+\contentsline {subsubsection}{Art. 8 {Videobeweis}.}{9}{}%
+\contentsline {subsection}{\centering Drittes Buch - Das Spiel}{10}{}%
+\contentsline {subsubsection}{Art. 9 {Spielbeginn}.}{10}{}%
+\contentsline {subsubsection}{Art. 10 {Erstwurf-Entscheidung}.}{10}{}%
+\contentsline {subsubsection}{Art. 11 {Der Wurf}.}{10}{}%
+\contentsline {subsubsection}{Art. 12 {Anzahl der Bälle}.}{10}{}%
+\contentsline {subsubsection}{Art. 13 {Spielverlauf}.}{10}{}%
+\contentsline {subsubsection}{Art. 14 {Rearrangement (Re-Rack)}.}{11}{}%
+\contentsline {subsubsection}{Art. 15 {On Fire}.}{11}{}%
+\contentsline {subsubsection}{Art. 16 {Rebound}.}{11}{}%
+\contentsline {subsubsection}{Art. 17 {Spielabbruch}.}{12}{}%
+\contentsline {subsubsection}{Art. 18 {Spezielle Würfe}.}{12}{}%
+\contentsline {subsubsection}{Art. 19 {Air-Ball}.}{12}{}%
+\contentsline {subsubsection}{Art. 20 {Bomb}.}{12}{}%
+\contentsline {subsubsection}{Art. 21 {Herausblasen/Herausfingern}.}{12}{}%
+\contentsline {subsubsection}{Art. 22 {Balls-Back}.}{13}{}%
+\contentsline {subsubsection}{Art. 23 {Deathcup}.}{13}{}%
+\contentsline {subsubsection}{Art. 24 {Redemption}.}{13}{}%
+\contentsline {subsubsection}{Art. 25 {Bouncer}.}{13}{}%
+\contentsline {subsubsection}{Art. 26 {Sieger des Spiels}.}{13}{}%
+\contentsline {section}{Beerpongturnier Strafgesetzbuch (BStGB}{15}{}%
+\contentsline {subsubsection}{§ 1 {Keine Strafe ohne Tat}.}{16}{}%
+\contentsline {subsubsection}{§ 2 {Zeit der Tat}.}{16}{}%
+\contentsline {subsubsection}{§ 3 {Ort der Tat}.}{16}{}%
+\contentsline {subsubsection}{§ 4 {Personen und Sachbegriffe}.}{16}{}%
+\contentsline {subsubsection}{§ 5 {Grundsatz der Strafbemessung}.}{17}{}%
+\contentsline {subsubsection}{§ 6 {Persönliche Strafen und Spielstrafe}.}{17}{}%
+\contentsline {subsubsection}{§ 7 {Arten der persönlichen Strafe}.}{18}{}%
+\contentsline {subsubsection}{§ 8 {Arten der Spielstrafe}.}{18}{}%
+\contentsline {subsubsection}{§ 9 {Beeinflusster Wurf}.}{18}{}%
+\contentsline {subsubsection}{§ 10 {Regelbruch}.}{18}{}%
+\contentsline {subsubsection}{§ 11 {Strafmaßnahmen}.}{19}{}%
+\contentsline {subsubsection}{§ 12 {Extra- oder Wiederholungswurf}.}{19}{}%
+\contentsline {subsubsection}{§ 13 {Strafbecher}.}{19}{}%
+\contentsline {subsubsection}{§ 14 {Matchstrafe}.}{20}{}%
+\contentsline {subsubsection}{§ 15 {Turnierausschluss}.}{20}{}%
+\contentsline {subsubsection}{§ 16 {Fairplay}.}{20}{}%
+\contentsline {subsubsection}{§ 17 {Sperre}.}{20}{}%
+\contentsline {section}{Beerpongturnierprozessordnung (BtPO)}{21}{}%
+\contentsline {subsection}{\centering Erstes Buch - Allgemeiner Teil}{22}{}%
+\contentsline {subsubsection}{§ 1 {Grundsatz}.}{22}{}%
+\contentsline {subsubsection}{§ 2 {Aufbau und Organisation}.}{22}{}%
+\contentsline {subsubsection}{§ 3 {Gastgeber}.}{22}{}%
+\contentsline {subsubsection}{§ 4 {Vorstandschaft}.}{22}{}%
+\contentsline {subsubsection}{§ 5 {Turnierleitung}.}{23}{}%
+\contentsline {subsubsection}{§ 6 {Pressemitglieder}.}{23}{}%
+\contentsline {subsubsection}{§ 7 {Vorstandssitzung}.}{23}{}%
+\contentsline {subsubsection}{§ 8 {Leitstelle}.}{24}{}%
+\contentsline {subsubsection}{§ 9 {Spielplan}.}{24}{}%
+\contentsline {subsubsection}{§ 10 {Regulärer Eintritt}.}{24}{}%
+\contentsline {subsubsection}{§ 11 {Spieler auf Zeit}.}{24}{}%
+\contentsline {subsubsection}{§ 12 {Spieler auf Lebenszeit}.}{25}{}%
+\contentsline {subsubsection}{§ 13 {Champion}.}{25}{}%
+\contentsline {subsubsection}{§ 14 {Der goldenen Ball}.}{25}{}%
+\contentsline {subsubsection}{§ 15 {Austritt}.}{25}{}%
+\contentsline {subsubsection}{§ 16 {Startgebühr}.}{25}{}%
+\contentsline {subsubsection}{§ 17 {Spielvorschrift}.}{26}{}%
+\contentsline {subsection}{\centering Zweites Buch - Der Turnierbetrieb}{27}{}%
+\contentsline {subsubsection}{§ 18 {Anmeldung}.}{27}{}%
+\contentsline {subsubsection}{§ 19 {Auslosung}.}{27}{}%
+\contentsline {subsubsection}{§ 20 {Wahl des Teamnamen}.}{27}{}%
+\contentsline {subsubsection}{§ 21 {Turniermodus}.}{27}{}%
+\contentsline {subsubsection}{§ 22 {Jeder gegen Jeden}.}{27}{}%
+\contentsline {subsubsection}{§ 23 {Gruppen- und/oder K.O.-Phase}.}{28}{}%
+\contentsline {subsubsection}{§ 24 {Zeitlimit}.}{28}{}%
+\contentsline {subsubsection}{§ 25 {Relegation}.}{28}{}%
+\contentsline {subsubsection}{§ 26 {Beginn des Turniers}.}{28}{}%
+\contentsline {subsubsection}{§ 27 {Pause zwischen Spielen}.}{28}{}%
+\contentsline {subsubsection}{§ 28 {Siegerehrung}.}{29}{}%
+\contentsline {subsubsection}{§ 29 {Gefahrenspiele}.}{29}{}%
+\contentsline {subsubsection}{§ 30 {Aufzeichnung}.}{29}{}%
+\contentsline {subsubsection}{§ 31 {Statistik}.}{29}{}%
+\contentsline {subsection}{\centering Dritte Buch - Strafbarkeit}{31}{}%
+\contentsline {subsubsection}{§ 32 {Verhängung von Strafen}.}{31}{}%
+\contentsline {subsubsection}{§ 33 {Spielbogenvermerk}.}{31}{}%
+\contentsline {subsubsection}{§ 34 {Weiterreichende Maßnahmen}.}{31}{}%
+\contentsline {subsubsection}{§ 35 {Verhältnismäßigkeitsgrundsatz}.}{32}{}%
+\contentsline {subsection}{\centering Viertes Buch - Das Schiedsgericht}{33}{}%
+\contentsline {subsubsection}{§ 36 {Grundsatz des Schiedsgerichts}.}{33}{}%
+\contentsline {subsubsection}{§ 37 {Schiedsgerichtsverhandlung}.}{33}{}%
+\contentsline {subsubsection}{§ 38 {Anfechtung}.}{33}{}%
+\contentsline {subsubsection}{§ 39 {Maßnahmen bei Verhandlungen gegen ein Mitglied der Vorstandschaft}.}{33}{}%
+\contentsline {subsection}{\centering Fünftes Buch - Wahrung der Gemeinschaft}{34}{}%
+\contentsline {subsubsection}{§ 40 {}.}{34}{}%
+\contentsline {section}{BPT Elo Wertung}{35}{}%
+\contentsline {subsection}{Legende}{35}{}%
+\contentsline {subsection}{Elo Startwert}{35}{}%
+\contentsline {subsection}{Berechnung des Erwartungswerts}{35}{}%
+\contentsline {subsubsection}{Erwartungswert des Spieler A}{36}{}%
+\contentsline {subsubsection}{Erwartungswert des Spieler B}{36}{}%
+\contentsline {subsection}{Neuberechnung der Elo-Zahl}{36}{}%
+\contentsline {subsubsection}{\(k\)-Faktor}{36}{}%
+\contentsline {subsubsection}{Schachmodell}{36}{}%
+\contentsline {subsubsection}{Schweizer Tischtennis Model}{36}{}%
+\contentsline {subsubsection}{Modell des Beerpongturniers}{37}{}%
+\contentsline {subsubsection}{Punkteverteilung}{37}{}%
+\contentsline {subsubsection}{Neuberechnung}{37}{}%
+\contentsline {subsection}{Berechnungsmodell für das Beerpongturnier im Teamwettbewerb}{37}{}%
+\contentsline {subsubsection}{Konstellationen der Elo-Berechnung bei einem Teamwettbewerb}{37}{}%
+\contentsline {subsubsection}{2 vs. 2 (Standardfall)}{38}{}%
+\contentsline {subsubsection}{zusätzliche Berechnungen bei einem Dreierteam}{38}{}%
+\contentsline {subsubsection}{zusätzliche Berechnung bei zwei Dreierteams}{38}{}%
+\contentsline {subsubsection}{Maximalanzahl der Berechnungen}{38}{}%
+\contentsline {subsection}{Kategorien}{39}{}%
