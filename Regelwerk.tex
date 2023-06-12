@@ -1,0 +1,470 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+\title{Beerpongturnier Manifest}
+\author{Kevin Haberl mit Andreas Grill}
+\date{\today}
+
+\newcounter{arti}
+\setcounter{arti}{1}
+\newcounter{absatz}
+\setcounter{absatz}{1}
+\newcounter{upper}
+\setcounter{upper}{1}
+\setcounter{secnumdepth}{-1}
+
+\newenvironment{artikel}[1]{%
+    \subsubsection{Art. \arabic{arti} {#1}.}
+    \addtocounter{arti}{1}
+    \newcommand{\up}{\textsuperscript{\arabic{upper}}\addtocounter{upper}{1}}
+    \newcommand{\abs}{(\arabic{absatz})\addtocounter{absatz}{1}\setcounter{upper}{1}}
+}{\setcounter{upper}{1}\setcounter{absatz}{1}}
+
+\newenvironment{para}[1]{%
+    \subsubsection{§ \arabic{arti} {#1}.}
+    \addtocounter{arti}{1}
+    \newcommand{\up}{\textsuperscript{\arabic{upper}}\addtocounter{upper}{1}}
+    \newcommand{\abs}{(\arabic{absatz})\addtocounter{absatz}{1}\setcounter{upper}{1}}
+}{\setcounter{upper}{1}\setcounter{absatz}{1}}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Einführung}
+Lieber Leser,
+
+\newpage
+
+\section{Bayerisches Beerponggesetz (BayBPG)}
+Das bayerische Beerponggesetz in der Fassung vom \today.
+\newpage
+\subsection{\centering Erstes Buch - Allgemeiner Teil}
+\begin{artikel}{Grundsatz}
+\abs{} Dieses Buch stellt ein allgemeines Regelwerk für den Beerpongsport dar.
+\\\abs{} Die Anwendung von hausinternen Regeln ist beim Beerpong stets erwünscht
+\end{artikel}
+\newpage
+\subsection{\centering Zweites Buch - Der Aufbau}
+
+\begin{artikel}{Spieltisch}
+\abs{} \up{}Der Aufbau eines Spieltisches ist auf Abbildung 1.1 beschrieben. \up{}Er darf während des Turniers nicht verändert werden.
+\\\abs{} Der Aufbau besteht aus:
+\begin{enumerate}
+\item einer Mittellinie
+\item einer handfreien Zone
+\item je 10 Redcups auf jeder Seite der Pyramide
+\item beliebig vielen Tischtennisbällen, die zu Beginn des Truniers im Wassercup bereitliegen
+\item einem Wassercup zum Waschen der Bälle
+\end{enumerate}
+\end{artikel}
+
+\begin{artikel}{Spielgerät}
+\abs{} Spielgerät und Bierbehältnis ist der Redcup.
+\\\abs{} Füllmenge und Inhalt der Redcups kann von jedem Spieler selbst bestimmt werden, sollte aber mindestens in Summe einen halben Liter pro Teammitglied ergeben und pro Becherfüllung nicht die zweite Einkerbung der Redcups unterschreiten.
+\\\abs{} Nachfüllen nach Spielbeginn ist verboten
+\\\abs{} "muss in BtPO
+\end{artikel}
+
+\begin{artikel}{Handfreie Zone}
+\abs{} Die handfreie Zone ist eine rechteckige Markierung auf dem Tisch, in welcher die Redcups platziert werden.
+\\\abs{} \up{}In und über der handfreien Zone ist es nicht erlaubt die Hände hineinzuhalten und / oder den Ball zu berühren.
+\up{}Dabei gelten folgenden Ausnahmen:
+\begin{enumerate}
+\item Der Ball wurde noch nicht von der gegenerischen Mannschaft unter Kontrolle gebracht.
+\item Der geworfenen Ball springt nicht mehr höher als der Rand des Redcups.
+\item Der geworfenen Ball rollt oder ist zum Erliegen gekommen.
+\item Der Ball hat in der Wurfbewegung die Hand des gegnerischen Spielers nicht verlassen.
+\end{enumerate}
+\end{artikel}
+\begin{artikel}{Mittellinie}
+\up{}Die Mittellinie gilt als Abtrennung der beiden Spielfeldhälften. \up{}Sie durchzieht dabei imaginär den kompletten Raum.
+\end{artikel}
+
+\begin{artikel}{Ellbogen}
+Bei einem Wurf darf der Ellbogen die Tischkante nicht überragen.
+\end{artikel}
+
+\begin{artikel}{Spielball}
+\abs{} Als Spielball ist ein Tischtennisball mit einem Umfang von 40mm zu verwenden.
+\\\abs{} "BtPO"
+\end{artikel}
+
+\begin{artikel}{Videobeweis}
+\abs{} Sollte die Möglichkeit eines Videobeweises bestehen, ist dieser nur während des Finalspiels zulässig.
+\\\abs{} \up{}Kann eine Situation weder von Turnierleitung noch von der Mehrheit der Zuschauer eindeutig geklärt werden, kann pro Team einmalig die fragliche Situation gechallenged werden. \up{}Ein Mitglied der Turnierleitung unterbricht mit einem Handzeichen das Spiel, überprüft, gegebenenfalls mit mehreren Mitgliedern der Turnierleitung die Situation anhand der Videoaufzeichnungen in der Leitstelle und entscheidet abschließend über die Spielfortsetzung.
+\end{artikel}
+
+\newpage
+\subsection{\centering Drittes Buch - Das Spiel}
+
+\begin{artikel}{Spielbeginn}
+\abs{} Jedes Team bekommt bei jedem neuen Spiel einen Tisch zugewiesen. 
+\\\abs{} \up{}Für die Seitenwahl sind die Teams selbst verantwortlich. \up{}Bei Differenzen entscheidet der Verlierer der Erstwurf-Entscheidung.
+\end{artikel}
+
+\begin{artikel}{Erstwurf-Entscheidung}
+\up{}Um zu entscheiden, wer zu Beginn des Spiels den ersten Wurf tätigen darf, tritt vor Beginn des Spiels jeweils ein Spieler der beiden Teams zu einem Duell "Schere-Stein-Papier" an. \up{}Der Sieger erhält den ersten Wurf.
+\end{artikel}
+
+\begin{artikel}{Der Wurf}
+Der Ball gilt als geworfen, wenn er die Hand des Werfers in der Wurfbewegung nicht mehr berührt.
+\end{artikel}
+
+\begin{artikel}{Anzahl der Bälle}
+\abs{} Grundsätzlich wird ein Spiel mit zwei Bällen bestritten.
+\\\abs{} Es kann jederzeit auf einen Ball ausgewichen werden, um die Chancengleichheit zu gewährleisten.
+\end{artikel}
+
+\begin{artikel}{Spielverlauf}
+\abs{} \up{}Geworfen werden muss bei Anwesenheit beider Partner immer abwechselnd. \up{}Als Ausnahme gilt der Rebound.
+\\\abs{} \up{}Ein Partner darf sich während des Spiels aus triftigen Gründen für maximal drei Würfe der gegnerischen Mannschaft vom Tisch entfernen. \up{}In dieser Zeit spielt sein Partner alleine. \up{}Triftige Gründe sind:
+\begin{enumerate}
+\item Klogang.
+\item Medizinische Grundversorgung
+\item Genehmigung der Turnierleitung
+\end{enumerate}
+\abs{} \up{}Bei einem Treffer muss das gegnerische Team den Inhalt des Redcups trinken und den Becher außerhalb der handfreien Zone am Tand des Biertisches abstellen. \up{}Ein Wurf gilt dann als Treffer, wenn der Tischtennisball in der Flüssigkeit des Redcups liegen bleibt.
+\\\abs{} \up{}Berührt der Ball während des Fluges ein anderes Objekt und landet trotzdem oder aus diesem Grund in einem Redcup, gilt dies als Treffer. \up{}Becher, welche durch den Einfluss des Balls oder des Gegners zu Fall kommen, zählen als Treffer.
+\\\abs{} \up{}Der Ball darf nach einem Wurf des Gegners erst hinter oder im seitlichen Aus der Tischplatte gefangen werden. \up{}Landet der Ball nach einem gescheiterten Fangversuch des Gegners im Becher zählt dies als Treffer.
+\end{artikel}
+
+\begin{artikel}{Rearrangement (Re-Rack)}
+\abs{} \up{}Bei genau sechs oder drei verbleibenden Redcups im gegnerischen Team kann das werfenden Team fordern, dass die Recups wieder in einer pyramidalen Form angeordnet werden. \up{}Das Fordern muss vor dem nächsten eigenen Wurf der Mannschaft erfolgen und ist eine Hohlschuld. \up{}Die Aufstellung der Reducups erfolgt anhand der Spitze der Pyramide
+\\\abs{} Ein Einfordern bei einer anderen Anzahl an Redcups als der in Absatz 1 genannten, entfaltet keine Wirkung.
+\end{artikel}
+
+\begin{artikel}{On Fire}
+\abs{} \up{}Hat sich die Becheranzahl einer Mannschaft auf drei oder weniger Becher reduziert und die gegnerische Mannschaft hat 5 oder mehr Becher auf dem Tisch, kann die Mannschaft mit drei Becher nach einem Treffer "On Fire" fordern. \up{}Hierbei ist die Mannschaft mit drei verbleibenden Bechern solange am Zug bis entweder
+\begin{enumerate}
+\item die werfende Mannschaft ihre Trefferserie untbricht
+\item[oder]
+\item die gegnerische Mannschaft ebenfalls nur noch drei Becher vorweisen kann.
+\end{enumerate}
+\abs{} \up{}On Fire ist eine Hohlschuld. \up{} Ein Rebound hebt die On Fire Wirkung nicht auf.
+\end{artikel}
+
+\begin{artikel}{Rebound}
+\abs{} Prallt der Ball nach einem getätigten Wurf con der gegnerischen Seite zurück und überquert dabei die Mittellinie in vollem Umfang, so darf die werfenden Mannschaft den Wurf erneut tätigen.
+\abs{} \up{}Mit erneutem Überqueren der Mittellinie in die ursprüngliche Richtung geht die Wurfberechtigung wieder auf die gegenerische Mannschaft über. \up{}Dies gilt nicht, wenn die Mannschaft, auf welcher Seite sich der Ball zum Zeitpunkt der Entscheidung befindet, den Ball unter Kontrolle gebracht hat.
+\end{artikel}
+
+\begin{artikel}{Spielabbruch}
+\abs{} "BtPO"
+\\\abs{} Die Turnierleitung kann ein Spiel abbrechen, wenn in absehbarer Zeit nicht vermutet werden kann, dass eine sichere Durchführung des Spiels möglich ist.
+\\\abs{} \up{}Ein abgebrochenes Spiel wird 0:0 gewertet.
+\\\abs{} "BtPO"
+\\\abs{} "BtPO"
+\end{artikel}
+
+\begin{artikel}{Spezielle Würfe}
+\up{}Die folgenden Artikel finden in einem Spiel, bei dem mit einem Ball gespielt wird, keine Anwendung
+\end{artikel}
+
+\begin{artikel}{Air-Ball}
+\abs{} Als Air-Ball wird der Ball bezeichnet, welcher beim Wurf die hintere Kannte des Tisches überfliegt ohne den Tisch dabei zu berühren.
+\\\abs{} Die Anzahl der Air-Balls pro Spiel werden summiert.
+\\\abs{} \up{}Bei einer Änderung der Anzahl der Summer der Air-Balls eines Teams, muss das Gegnerteam mit einem klaren Handzeichen die neue Summe der Air-Balls anzeigen. \up{}Wird die Anzeige bis zum nächsten Wurf des Gegnerteams nicht durchgeführt, erhöht sich die Air-Ball Zahl nicht.
+\end{artikel}
+
+\begin{artikel}{Bomb}
+\up{}Als Bomb wird der Spielzug bezeichnet, bei dem beide Bälle von einem Team in den selben Redcup getroffen werden.
+\end{artikel}
+
+\begin{artikel}{Herausblasen/Herausfingern}
+\up{}Kreist ein Ball nach einem Wurf an der Wand des Redcups noch einige Male, bevor er die Flüssigkeit oder einen bereits darin befindlichen Ball berührt, darf dieser während dieser Zeitdauer aus dem Redcup herausgeblasen oder herausgefingert werden. \up{}Fliegt der Ball beim Herausblasen in einen anderen, im Spiel befindlichen Redcup, so zählt dies als Treffer. \up{}Wird der Ball herausgeblasen oder herausgefingert, nachdem er die Flüssigkeit berührt hat, zählt dies als Treffer.
+\end{artikel}
+
+\begin{artikel}{Balls-Back}
+\abs{} \up{}Treffen in einem Spiel mit zwei Bällen beide Teampartner, so kann das Team vor den Würfen des Gegnerteams Balls-Back verlangen. \up{}Hierbei hat das werfende Team erneut zwei Würfe, muss diese aber per Trick-Shot ausführen. \up{}Der Trick-Shot muss vor dem Wurf benannt werden. \up{}Als Trick-Shot gilt jeder Wurf welcher nicht durch eine normale Wurfbewegung oder mit offenen Augen durchgeführt wird.
+\\\abs{} Balls-Back ist eine Hohlschuld.
+\end{artikel}
+
+\begin{artikel}{Deathcup}
+\abs{} \up{}Wird ein bereits getroffener Becher von der gegenrischen Mannschaft aus dem Grund des Getränkekonsums oder des Wegstellens in der Hand gehalten, so kann die werfenden Mannschaft versuchen diesen Becher erneut zu treffen. \up{}Wird der Becher getroffen ist das Spiel zu Ende.
+\\\abs{} Das Spiel wird -Becher der werfenden Mannschaft- zu 0 gewertet.
+\end{artikel}
+
+\begin{artikel}{Redemption}
+\abs{} Wird der letzte BEcher einer Mannschaft getroffen, so bekommt die verlierende Mannschaft einen Nachwurf (Redemption).
+\\\abs{} Trifft die Mannschaft alle übrigen Becher der gegnerischen Mannschaft ohne Fehlwurf so erfolgt eine Overtime mit jeweils drei Becher.
+\end{artikel}
+
+\begin{artikel}{Bouncer}
+\abs{} Ein geworfener Ball, der mindestens einmal die Tischplatte berührt, bevor er einen Becher berührt, ins Seitenaus oder ins hintere Aus fliegt, nennt man Bouncer.
+\\\abs{} Der Ball darf, nachdem er in einen Bouncer übergegangen ist, mit der Hand weggeschlagen werden.
+\\\abs{} Trifft der Bouncer, zählt der Treffer doppelt und zwei Becher müssen vom Spielfeld entfernt werden.
+\end{artikel}
+
+\begin{artikel}{Sieger des Spiels}
+\abs{} \up{}Sieger des Spiels ist das Team, welches als erstes alle gegnerischen Becher getroffen hat oder nach Ende der Zeit mehr eigene Becher verzeichnen kann. \up{}Der Verlierer des Spiels ist nicht verpflichtet die restlichen vollen Becher zu trinken, jedoch wird dies aus sportlicher Sicht gerne gesehen.
+\\\abs{} Wird bei einem Unentschieden in letzter Sekunde ein Treffer erzielt, so zählt dieser nur, wenn sich der Ball bereits bei Verstreichen der letzten Sekunde im Flug befunden hat.
+\end{artikel}
+
+\newpage
+\setcounter{arti}{1}
+\section{Beerpongturnier Strafgesetzbuch (BStGB}
+Das Beerpongturnier Strafgesetzbuch nach der Verfassung vom \today durch die Vorstandschaft des Beerpongturniers.
+
+\begin{para}{Keine Strafe ohne Tat}
+Eine Tat kann nur bestraft werden, wenn ein Fehlverhalten nach diesem Gesetz vorliegt.
+\end{para}
+
+\begin{para}{Zeit der Tat}
+\abs{} \up{}Eine Tat ist zu der Zeit begangen, zu welcher der Spieler oder Anwesende gehandelt hat oder im Falle des Unterlassens hätte handeln müssen. \up{}Wann und ob Erfolg eintritt, ist nicht maßgebend.
+\end{para}
+
+\begin{para}{Ort der Tat}
+\abs{} Der Ort, an welchem der Täter die Tat verübt oder verüben will, ist der Tatort.
+\\\abs{} Für die Taten, welche in diesem Gesetz geregelt sind, ist der Ort grundsätzlich innerhalb des Turnierort und ein Umkreis von 15 Kilometer.
+\end{para}
+
+\begin{para}{Personen und Sachbegriffe}
+\abs{} Im Sinne dieses Gesetzes ist
+\begin{enumerate}
+\item der Spieler:
+\\wer die Teilnahmegebühr bezahlt;
+\item die Turnierleitung:
+\\wer die Leitung und Führung des Turniers nach der Beerpongturnierprozessordnung übernimmt;
+\item das Schiedsgericht:
+\\wer die Gerichtsbarkeit des Turniers nach der Beerpongturnierprozessordnung vertritt;
+\item Teilnehmer:
+\\wer am Turniertag 0:00 Uhr bis zum darrauffolgenden Tag 24:00 Uhr am Ort der Tat anwesend ist;
+\item das Turnier:
+\\der Zeitraum von Beginn der Pre-Show bis zum Ende der Siegerehrung
+\item der Täter:
+\\wer als Spieler oder Turnierteilnehmer eine Straftat begeht.
+\end{enumerate}
+\end{para}
+
+\begin{para}{Grundsatz der Strafbemessung}
+\abs{} \up{}Die Schuld des Täters ist Grundlage der Strafbemessung. \up{}Die Auswirkung auf seine Turnierzukunft ist zu berücksichtigen.
+\\\abs{} \up{}Bei der Zumessung wägt die Turnierleitung oder bei einem Schiedsgerichtverfahren das Schiedsgericht die Umstände, die für und gegen den Täter sprechen gegeneinander ab. \up{}Dabei kommen besonders folgende Merkmale in Betracht:
+\begin{enumerate}
+\item die Beweggründe und die Ziele des Täters, besonders rassistische, fremdenfeindliche, antisemitische und sonstige menschenverachtende,
+\item die Gesinnnung, die aus der Tat spricht,
+\item die Härte der Tat,
+\item die Art der Ausführung,
+\item die Vorstrafen des Täters,
+\item das Verhalten nach der Tat, besonders sein Bemühen, den Schaden wiedergutzumachen.
+\end{enumerate}
+\abs{} \up{} Wer eine Tat begeht, die durch Notwehr geboten ist, handelt nicht rechtswidrig. \up{} Notwehr ist die Verteidigung, die erforderlich ist, um einen gegenwärtigen rechtswidrigen Angriff von sich oder einem anderen abzuwenden.
+\\\abs{} Der Versuch ist nur bei persönlichen Strafen strafbar.
+\\\abs{} Als Anstifter wird gleich dem Täter bestraft, wer vorsätzlich einen anderen zu dessen vorsätzlich begangener Tat bestimmt hat.
+\\\abs{} Als Gehilfe wird bestraft, wer vorsätzlich einem anderen zu dessen vorsätzlich begangener rechtswidrigen Tat Hilfe geleistet hat.
+\end{para}
+
+\begin{para}{Persönliche Strafen und Spielstrafe}
+\abs{} Mit einer persönlichen Strafe, werden Taten bestraft, die nicht im Zusammenhang mit dem Turnier im engeren Sinne stehen.
+\\\abs{} Mit einer Spielstrafe werden Taten bestraft, welche im inneren ZUsammenhang mit dem Turnier stehen (Regelbruch). Spielstrafen können nur an Spieler und nur während des laufenden TUrniers verhängt werden.
+\\\abs{} \up{}Der innere Zusammenhang im engeren Sinn besteht bei der Pre-Show, den Spielen und der Siegerehrung. \up{}Der innere Zusammenhang ist nicht mehr gegeben, wenn das Motiv der Tat über das Spiel hinaus in den privaten Geltungsbereich des Betroffenen eintritt.
+\end{para}
+
+\begin{para}{Arten der persönlichen Strafe}
+Eine persönliche Strafe liegt vor, wenn
+\begin{enumerate}
+\item ein Teilnehmer einen anderen Teilnehmer mutwillig beleidigt.
+\item ein Teilnehmer aufgrund eines zu hohen Alkoholkonsums einschläft, ins Koma fällt, unkontrolliert uriniert, defäkiert oder erbricht.
+\item ein Teilnehmer mit augenscheinlichem Alkoholgehalt von mehr als 0,5 Promille am Turniertag sowie dem Tag danach 09:00 Uhr Ortszeit ein Kraftfahrzeug oder ein Fahrrad steuert.
+\item ein Teilnehmer einen anderen Teilnehmer absichtlich verletzt
+\item eine sonstige, nach der allgemeinen Verkehrssitte verwerfliche Straftat begeht, welche nicht im inneren Zusammenhang mit dem Turnier steht.
+\end{enumerate}
+\end{para}
+
+\begin{para}{Arten der Spielstrafe}
+Eine Spielstrafe liegt vor, wenn
+\begin{enumerate}
+\item ein Spieler einen beeinflussten Wurf ausführt.
+\item ein Spieler einen Regelbruch begeht.
+\end{enumerate}
+\end{para}
+
+\begin{para}{Beeinflusster Wurf}
+Als beeinflusster Wurf gilt ein Wurf, wenn
+\begin{enumerate}
+\item der ausführende Spieler durch ein Objekt oder Tier im Wurf nachweislich beim Wurf behindert wurde.
+\item der ausführende Spieler durch ein unvorhergesehenes oder unabsichtlich herbeigeführtes Ereignis, das auf seinen Körper einwirkt beim Wurf behindert wurde.
+\end{enumerate}
+\end{para}
+
+\begin{para}{Regelbruch}
+\abs{} Ein Regelbruch liegt vor, wenn eine Vorschrift des Bayerischen Beerponggesetz verletzt wird
+\\\abs{} Ein unmittelbarer Regelbruch liegt vor, wenn
+\begin{enumerate}
+\item ein Spieler seine Hand in die handfreie Zone hält, während der Gegner wirft oder vom Ball in der handfreien Zone getroffen wird, auch wenn der Ball offensichtlich nicht im Redcup gelandet wäre. Der Zeitpunkt des Balls beim Verlassen der Wurfhand ist entscheidend;
+\item eine Mannschaft sich weigert die Becher zu einer Pyramide anzuordnen;
+\item ein Spieler einen oder mehrere Becher während des laufenden Spiels nachfüllt;
+\item ein Spieler mutwillig einen gegnerischen Becher umwirft;
+\item ein Spieler wiederholt Mitglieder der Presse oder Turnierleitung beschimpft oder beleidigt;
+\item ein Spieler die Leitstelle betritt;
+\item ein Spieler in einem Spiel mit Zeituhr nach Ablauf von 40 Sekunden nach nicht geworfen hat.
+\end{enumerate}
+\abs{} Ein mittelbarer Regelbruch liegt vor, wenn ein Spieler einen sonstige allgemeine Spielregel bricht.
+\end{para}
+
+\begin{para}{Strafmaßnahmen}
+\abs{} Ein Extra- oder Wiederholungswurf wird vergeben, wenn ein beeinflusster Wurf durchgeführt wurde.
+\\\abs{} Ein Strafbecher wird vergeben, wenn ein Regelbruch begangen wurde.
+\\\abs{} Eine Matchstrafe liegt vor, wenn der dritte Strafbecher gegen eine Mannschaft vergeben wird.
+\\\abs{} Ein Turnierausschluss liegt vor, wenn eine persönliche Strafe vorliegt oder ein Spieler
+\begin{enumerate}
+\item einen unmittelbaren Regelbruch
+\item[oder]
+\item wiederholt einen Spielbogenvermerk erhält
+\end{enumerate}
+\end{para}
+
+\begin{para}{Extra- oder Wiederholungswurf}
+Wer einen Extra- oder Wiederholungswurf erhält, ist berechtigt einen erneuten Wurfversuch zu tätigen.
+\end{para}
+
+\begin{para}{Strafbecher}
+\up{} Ein Strafbecher ist durch die Turnierleitung aus den noch vorhandenen Redcups des Teams des Täters zu wählen. Ist der letzte Becher ein Strafbecher, ist das Match beendet und nach Becherstand zu werten.
+\end{para}
+
+\begin{para}{Matchstrafe}
+Wer eine Matchstrafe erhält, verliert das Spiel mit der Wertung X zu 0 Becher, wobei X für die verbleibenden Becher des Gegners steht
+\end{para}
+
+\begin{para}{Turnierausschluss}
+\abs{} Wer einen Turnierausschluss erhält, darf nicht mher am Turnier teilnehmen.
+\\\abs{} Der ausgeschlossenen Teilnehmer hat mit sofortiger Wirkung den Turnierort zu verlassen.
+\end{para}
+
+\begin{para}{Fairplay}
+\up{}Stimmen zwei Drittel der anwesenden Spieler gegen einen Turnierausschluss, so wird lediglich ein Spielbogenvermerk vorgenommen.
+\up{}Ein Ausschluss nach wiederholtem Spielbogenvermerk bleibt unberührt.
+\end{para}
+
+\begin{para}{Sperre}
+\abs{} Wer eine Sperre erhält, ist für bis zu drei Turniere nicht teilnahmeberechtigt.
+\\\abs{} \up{}Erhält ein Teilnehmer nach Wiedereintritt in das Turnier in den folgenden zehn Turnieren erneut eine Sperre, wird der Spieler dauerhaft von der Teilnahme ausgeschlossen (Turnierausschluss auf Dauer). \up{}Diese Sperre kann nur durch ein Schiedsgerichtsurteil ausgesprochen oder aufgehoben werden.
+\end{para}
+
+\newpage
+\section{Beerpongturnierprozessordnung (BtPO)}
+
+\newpage
+\section{BPT Elo Wertung}
+Die BPT Elo Wertung liegt der Elo-Zahl aus dem Schach zugrunde. Im Nachgang wird die BPT Elo Wertung immer als Elo-Zahl bezeichnet.
+\subsection{Legende}
+\begin{itemize}
+\item \(R\) = Elo-Zahl des Spielers
+\item \(R'\) = Neue Elo-Zahl
+\item \(A\) = Alte BPT Spielstärke
+\item \(Q\) = Umrechnungskonstante
+\item \(E\) = Erwartungswert
+\item \(k\) = k-Faktor
+\item \(S\) = Punkte aus Punkteverteilung
+\end{itemize}
+\subsection{Elo Startwert}
+Seit dem BPT XIX wird der Elo-Wert nicht mehr anhand der alten Spielstärke berechnet. Als Startwert wird nun eine feste Elo-Zahl von 1800 vergeben. Ab dieser Zahl wird die Turnierentwicklung simuliert und nachgestellt.
+Um einen belegbaren und aussagekräftigen Einstieg in das Turnier zu gewährleisten, werden aktive Spieler bei der ersten Teilnahme immer auf den letzten Platz der Rangliste gesetzt.
+\subsection{Berechnung des Erwartungswerts}
+Der Erwartungswert \(E\) gibt die Sieg-Wahrscheinlichkeit des jeweiligen Spielers an und ist nötig um die neue Elo-Zahl nach jedem Spiel zu berechnen.
+\begin{align}
+E&=\{x|0 \leq x \leq 1\}
+\end{align}
+\(Y\) stellt den Abstufungsumfang der Elo-Skala von stark zu schwach dar. Diese kann - wenn notwendig - angepasst werden. Vorerst wird für das BPT Rating die Abstufung
+\begin{align}
+Y&=700
+\end{align}
+festgelegt. Sie ergibt sich aus der Elo-Spanne zwischen stärkstem und schwächstem Spieler.
+
+\subsubsection{Erwartungswert des Spieler A}
+\begin{align}
+E_{A} = \frac{1}{1+10^{(R_{B}-R_{A})/Y}}
+\end{align}
+
+\subsubsection{Erwartungswert des Spieler B}
+\begin{align}
+E_{B} = \frac{1}{1+10^{(R_{A}-R_{B})/Y}}
+\end{align}
+
+Somit ergibt sich aus den beiden Erwartungswerten
+\begin{align}
+E_A + E_B = 1
+\end{align}
+
+\subsection{Neuberechnung der Elo-Zahl}
+\subsubsection{\(k\)-Faktor}
+Der \(k\)-Faktor gibt an, wie viele Elo-Punkte ein Spieler bei einer Partie maximal hinzugewinnen kann.
+Wird der \(k\)-Faktor sehr hoch angesetzt, wirken sich die zufällige Einzelergebnisse, welche nicht der normalen Erwartung entsprechen sehr stark aus. Damit schwankt die Elo-Zahl sehr stark.
+Ist der \(k\)-Faktor sehr niedrig angesetzt, erfolgt eine Elo-Anpassung sehr träge. Viele Spiele sind also nötig um eine signifikante Änderung der Elo-Zahl zu erreichen.
+\subsubsection{Schachmodell}
+\begin{align}
+k=40
+\\k=20
+\\k=10
+\end{align}
+Im dreistufigen Schachmodel werden für neue Spieler mit weniger als 30 Partien (6) angesetzt.
+Für jeden regulären Spieler mit mindestens 30 Partien und \(R <= 2400\) wird (7) angesetzt. Dies trifft auf die allermeisten Spieler zu.
+Im Top-Bereich von \(R > 2400 \) ist (8) anzusetzen.
+\subsubsection{Schweizer Tischtennis Model}
+Im Tischtennismodel des Schweizer Verbands wird \(k=10\) für alle Spieler angesetzt.
+\subsubsection{Modell des Beerpongturniers}
+\begin{align}
+k=90
+\\k=70
+\\k=30
+\end{align}
+Aufgrund der wenigen Spiele pro Jahr wurden in einem dreistufiges Model die \(k\)-Faktoren für neue Spieler mit weniger als 30 Partien (9) festgesetzt. Für die breite Masse aller Spieler mit mindestens 30 Partien und \(R< 2000\) wird (10) verwendet. Für die Top-Spieler mit \(R>=2000>\) wird (11) angesetzt.
+\subsubsection{Punkteverteilung}
+Der Wert \(S\) gibt die Punkte an, welcher ein Spieler für den Spielausgang erhält
+\begin{itemize}
+\item \(S = 1\) für einen Sieg
+\item \(S = 0.5\) für ein Unentschieden
+\item \(S = 0\) für eine Niederlage
+\end{itemize}
+
+\subsubsection{Neuberechnung}
+Die Neuberechnung der Elo-Zahl ergibt sich aus:
+\begin{align}
+R' = R + k\times(S-E)
+\end{align}
+
+\subsection{Berechnungsmodell für das Beerpongturnier im Teamwettbewerb}
+Das Beerpongturnier ist als Teamwettbewerb aufgebaut. Dies macht die Umsetzung eines Einzelwertungssystems aufwendiger. Jedes Team besteht aus 2 oder 3 Spielern.
+Es wird angenommen, dass jeder Spieler für sich gegen die jeweiligen anderen Spieler der gegnerischen Mannschaft spielt.
+\subsubsection{Konstellationen der Elo-Berechnung bei einem Teamwettbewerb}
+\begin{tabular}{lr}
+H1 = Heimspieler 1 & G1 = Gastspieler 1 \\
+H2 = Heimspieler 2 & G2 = Gastspieler 2 \\
+H3 = Heimspieler 3 & G3 = Gastspieler 3 \\
+\end{tabular}
+\subsubsection{2 vs. 2 (Standardfall)}
+\begin{tabular}[h]{ll}
+H1 vs. G1 & 2 Berechnungen \\
+H1 vs. G2 & 2 Berechnungen \\
+H2 vs. G1 & 2 Berechnungen \\
+H2 vs. G2 & 2 Berechnungen \\
+\end{tabular}
+\\
+\\Für jede Begegnung sind sowohl die Berechnung für den Heimspieler als auch die Berechnung für den Gastspieler mit den beiden Erwartungswerten nötig. Somit sind insgesamt acht Berechnungen nötig.
+
+\subsubsection{zusätzliche Berechnungen bei einem Dreierteam}
+\begin{tabular}[h]{ll}
+H3 vs. G1 & 2 Berechnungen \\
+H3 vs. G2 & 2 Berechnungen \\
+\end{tabular}
+\\
+\\Vier zusätzliche Berechnungen treten bei einem Dreierteam auf. Das Beispiel trifft analog für ein Dreierteam der Gastmannschaft zu.
+\subsubsection{zusätzliche Berechnung bei zwei Dreierteams}
+\begin{tabular}[h]{ll}
+H3 vs. G3 & 2 Berechnungen \\
+\end{tabular}
+\\Zwei zusätzliche Berechnungen treten bei zwei Dreierteams auf.
+\subsubsection{Maximalanzahl der Berechnungen}
+Somit sind für ein Spiel im Beerpongturnier maximal 18 Elo-Berechnungen pro Spiel nötig. Dies ergibt bei durchschnittliche 25 Spielen 450 Elo-Berechnungen.
+
+\subsection{Kategorien}
+
+\end{document}
