@@ -4,6 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{enumitem}
+\usepackage{makecell}
 
 \title{Beerpongturnier Manifest}
 \author{Kevin Haberl mit Andreas Grill}
@@ -466,5 +467,15 @@ H3 vs. G3 & 2 Berechnungen \\
 Somit sind für ein Spiel im Beerpongturnier maximal 18 Elo-Berechnungen pro Spiel nötig. Dies ergibt bei durchschnittliche 25 Spielen 450 Elo-Berechnungen.
 
 \subsection{Kategorien}
-
+\begin{tabular}{|l|l|l|}
+\hline
+\thead{Höchste erreichte Elo-Zahl} & \thead{Erklärung} & \thead{Eigenschaften und Voraussetzungen} \\
+\hline
+\makecell{>2400} & \makecell{ \textbf{Super-Großmeister (SGM)}} & \makecell{mind. 5x BPT Champion} \\
+\hline
+\makecell{2100 bis 2399} & \makecell{\textbf{Großmeister (GM)}} & \makecell{mind. 2x BPT Champion} \\
+\hline
+\makecell{2000 bis 2099} & \makecell{\textbf{Beerpong-Meister (BM)}} & \makecell{mind. 6x Top 3}
+\hline
+\end{tabular}
 \end{document}
