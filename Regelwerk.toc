@@ -124,3 +124,15 @@
 \contentsline {subsubsection}{zusätzliche Berechnung bei zwei Dreierteams}{39}{}%
 \contentsline {subsubsection}{Maximalanzahl der Berechnungen}{39}{}%
 \contentsline {subsection}{Kategorien}{40}{}%
+\contentsline {section}{Höllgruber Kommentar}{41}{}%
+\contentsline {subsection}{BStGB}{42}{}%
+\contentsline {subsubsection}{Keine Strafe ohne Tat}{42}{}%
+\contentsline {subsubsection}{Zeit der Tat}{42}{}%
+\contentsline {subsubsection}{Ort der Tat}{42}{}%
+\contentsline {subsubsection}{Personen und Sachbegriffe}{42}{}%
+\contentsline {subsubsection}{Grundsatz der Strafbemessung}{43}{}%
+\contentsline {subsubsection}{Persönliche Strafe und Spielstrafe}{44}{}%
+\contentsline {subsubsection}{Art der persönlichen Strafen}{44}{}%
+\contentsline {subsubsection}{Art der Spielstrafen}{44}{}%
+\contentsline {subsubsection}{Beeinflusster Wurf}{45}{}%
+\contentsline {subsubsection}{Regelbruch}{45}{}%
